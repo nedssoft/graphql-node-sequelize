@@ -1,3 +1,4 @@
+const userResolvers = require('./user');
+const postResolvers = require('./post');
 
-
-module.exports = [];
+module.exports = [userResolvers, postResolvers];
