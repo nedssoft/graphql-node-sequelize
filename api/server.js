@@ -17,6 +17,7 @@ const apolloServer = new ApolloServer({
   playground: {
     settings: {
       'schema.polling.enable': false,
+      'editor.fontSize': 18,
     },
   },
 });
